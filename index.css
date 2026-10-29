@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+  
+  .font-mono, .tabular-nums {
+    font-family: 'JetBrains Mono', monospace;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Print Styles for Official A4 Documents */
+@media print {
+  body {
+    background-color: white !important;
+    color: black !important;
+  }
+  
+  nav, aside, header, .no-print {
+    display: none !important;
+  }
+  
+  .print-only {
+    display: block !important;
+  }
+  
+  .print-container {
+    width: 210mm !important;
+    min-height: 297mm !important;
+    margin: 0 auto !important;
+    padding: 15mm 20mm !important;
+    box-shadow: none !important;
+    border: none !important;
+    page-break-after: always;
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "DevAkuntansi ERP - Sistem Pembukuan Proyek & Akuntansi Developer",
+  "description": "Sistem pembukuan proyek, manajemen developer, dan akuntansi terpadu berstandar SAK EP 2025, pajak konstruksi PP 9/2022, kontrol anggaran RAB, dan pusat cetak dokumen resmi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
